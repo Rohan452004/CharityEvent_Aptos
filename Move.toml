@@ -1,0 +1,15 @@
+[package]
+name = "CharityReward"
+version = "1.0.0"
+authors = []
+
+[addresses]
+CharityReward = '0x5d601478a812ff5720d40786f8d88e5a45842a6fb5a2c6ef79ca549f1475a3d9'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
